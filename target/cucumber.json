@@ -1,0 +1,172 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User should be logged in",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2024-10-30T03:20:20.701Z",
+        "line": 24,
+        "name": "As a logged in user, I want to logout from the swaglabs website,",
+        "description": "so that my account information is secured",
+        "id": "swaglabs-logout-testing;as-a-logged-in-user--i-want-to-logout-from-the-swaglabs-website-;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 93000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open the browser",
+            "match": {
+              "location": "com.stepdef.StepdefSwaglabsLogin.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Pass the URL \"https://www.saucedemo.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.saucedemo.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.stepdef.StepdefSwaglabsLogin.pass_the_url(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepdefSwaglabsLogin.enter_the_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter the password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.stepdef.StepdefSwaglabsLogin.enter_the_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click the login button",
+            "match": {
+              "location": "com.stepdef.StepdefSwaglabsLogin.click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Click the menu bar",
+            "match": {
+              "location": "com.stepdef.StepdefSwaglabsLogin.click_the_menu_bar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click logout button",
+            "match": {
+              "location": "com.stepdef.StepdefSwaglabsLogin.click_logout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate logout is successful",
+            "match": {
+              "location": "com.stepdef.StepdefSwaglabsLogin.getSLlogout_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Quit all browser",
+            "match": {
+              "location": "com.stepdef.StepdefSwaglabsLogin.tearDown()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Swaglabs logout testing",
+    "description": "Description: User should have login account",
+    "id": "swaglabs-logout-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Swaglabs.Logout.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
